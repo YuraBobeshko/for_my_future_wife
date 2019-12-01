@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/for_my_future_wife/static/css/main.9b7c133a.chunk.css",
+    "main.js": "/for_my_future_wife/static/js/main.50e0a20c.chunk.js",
+    "main.js.map": "/for_my_future_wife/static/js/main.50e0a20c.chunk.js.map",
+    "runtime-main.js": "/for_my_future_wife/static/js/runtime-main.83455d72.js",
+    "runtime-main.js.map": "/for_my_future_wife/static/js/runtime-main.83455d72.js.map",
+    "static/js/2.2f4377ec.chunk.js": "/for_my_future_wife/static/js/2.2f4377ec.chunk.js",
+    "static/js/2.2f4377ec.chunk.js.map": "/for_my_future_wife/static/js/2.2f4377ec.chunk.js.map",
+    "index.html": "/for_my_future_wife/index.html",
+    "precache-manifest.3bf59ed1719e9bfe3a2222801836ceb3.js": "/for_my_future_wife/precache-manifest.3bf59ed1719e9bfe3a2222801836ceb3.js",
+    "service-worker.js": "/for_my_future_wife/service-worker.js",
+    "static/css/main.9b7c133a.chunk.css.map": "/for_my_future_wife/static/css/main.9b7c133a.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83455d72.js",
+    "static/js/2.2f4377ec.chunk.js",
+    "static/css/main.9b7c133a.chunk.css",
+    "static/js/main.50e0a20c.chunk.js"
+  ]
+}
