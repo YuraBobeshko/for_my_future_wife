@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78f3e0361776f692b83dc0afe20e69ab",
+    "revision": "d66e3a2e38d6549efefd9b8dee75d1fc",
     "url": "/for_my_future_wife/index.html"
   },
   {
-    "revision": "fb7f885382879ee6e8ba",
+    "revision": "732ceeb11530c274e125",
     "url": "/for_my_future_wife/static/css/main.9b7c133a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/for_my_future_wife/static/js/2.2f4377ec.chunk.js"
   },
   {
-    "revision": "fb7f885382879ee6e8ba",
-    "url": "/for_my_future_wife/static/js/main.50e0a20c.chunk.js"
+    "revision": "732ceeb11530c274e125",
+    "url": "/for_my_future_wife/static/js/main.02d585f0.chunk.js"
   },
   {
     "revision": "7440a7fab133dcacfbec",
