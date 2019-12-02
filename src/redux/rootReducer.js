@@ -8,15 +8,16 @@ const setNewName = "SET_NAME";
 const createName = "CREATE_NAME";
 
 const initialState = { food: [
-  { name: "Честная", id: 0, selected: false, changing: false, },
-  { name: "Умная", id: 1, selected: false, changing: false, },
-  { name: "Добрая", id: 2, selected: false, changing: false, },
-  { name: "Красивая", id: 3, selected: false, changing: false, },
-  { name: "Общительная", id: 4, selected: false, changing: false, },
-  { name: "Веселая", id: 5, selected: false, changing: false, },
-  { name: "Обворожительная ", id: 6, selected: false, changing: false, },
-  { name: "Спокойная", id: 7, selected: false, changing: false, },
-  { name: "Чудесная", id: 8, selected: false, changing: false, },
+  { name: " Честная", id: 0, selected: false, changing: false, },
+  { name: " Умная", id: 1, selected: false, changing: false, },
+  { name: " Добрая", id: 2, selected: false, changing: false, },
+  { name: " Красивая", id: 3, selected: false, changing: false, },
+  { name: " Общительная", id: 4, selected: false, changing: false, },
+  { name: " Веселая", id: 5, selected: false, changing: false, },
+  { name: " Обворожительная ", id: 6, selected: false, changing: false, },
+  { name: " Спокойная", id: 7, selected: false, changing: false, },
+  { name: " Чудесная", id: 8, selected: false, changing: false, },
+  { name: "Непоколебима", id: 9, selected: false, changing: false, },
 ], };
 
 function rootReducer (state = initialState, action) {
