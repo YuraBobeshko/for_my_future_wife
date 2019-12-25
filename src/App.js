@@ -3,13 +3,11 @@ import { connect } from "react-redux";
 import './App.css';
 
 function App (props) {
-  console.log(props)
   const [name, setName] = useState("");
   const [nameN, setNameN] = useState("");
   const {food, onSelect, onDown, onUp, changing, setNewName, createName} = props;
   return (
     <div className="App">
-      {/* <form onSubmit={(event) => createName(nameN, event)}> */}
         <input
           onKeyPress={event => event.key === "Enter" ? createName(nameN) : ""} 
           className="input"
@@ -18,17 +16,15 @@ function App (props) {
           type="text"
           onChange={event => setNameN(event.target.value)}
           defaultValue={nameN}
-          placeholder="Добавить качество Александры"
+          placeholder="Добавить качество Лены"
         ></input>
-      {/* </form> */}
       {food.map((item, index) => {
         return (
-          <>
+          <React.Fragment key={item.id}>
             <label
               className={`list-group-item ${
                 item.selected ? "active" : ""
               }`}
-              key={item.id}
               onDoubleClick={() => changing(item.id)}
               hidden={item.changing}
             >
@@ -51,7 +47,7 @@ function App (props) {
               onChange={event => setName(event.target.value)}
               defaultValue={item.name}
             ></input>
-          </>
+          </React.Fragment>
         );
       })}
       <div className="btn-group">

@@ -21,7 +21,6 @@ const initialState = { food: [
 ], };
 
 function rootReducer (state = initialState, action) {
-  console.log(state)
     switch (action.type) {
 
     case ItemUp:
@@ -90,7 +89,6 @@ function rootReducer (state = initialState, action) {
         } )
       };
     case createName:
-      console.log(action)
       const name = action.payload.trim();
       if(name !== "") {
         if(action.payload.event !== undefined) {
