@@ -16,7 +16,7 @@ function App (props) {
           type="text"
           onChange={event => setNameN(event.target.value)}
           defaultValue={nameN}
-          placeholder="Добавить качество Лены"
+          placeholder="Добавить качество Лены "
         ></input>
       {food.map((item, index) => {
         return (
